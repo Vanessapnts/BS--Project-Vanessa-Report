@@ -27,6 +27,8 @@ Download the Server Install image. (Picture below)
 
 After downloading and installing the virtualbox the following steps were followed:
 
+![2](https://cloud.githubusercontent.com/assets/25640511/25501788/da761cde-2b8b-11e7-80c9-6e24047e6cb3.png)
+
 - A virtual machine was created to install the guest OS (32 Bit Ubuntu Linux Server) using Virtualbox. To create we applying the following specifications:
 
    - Memory Size: 2048mb
@@ -36,8 +38,9 @@ After downloading and installing the virtualbox the following steps were followe
    
    - Virutal Har Disk: VDI, dynamically allocated, 20g
 
-![2](https://cloud.githubusercontent.com/assets/25640511/25501788/da761cde-2b8b-11e7-80c9-6e24047e6cb3.png)
+![4](https://cloud.githubusercontent.com/assets/25640511/25501714/91716b1a-2b8b-11e7-9a95-26cfba41e437.png)
 
+   - 
 
 
 Using VM VirtualBox create a machine for hosting our 32 Bit Ubuntu Linux server. 
