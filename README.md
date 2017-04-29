@@ -28,12 +28,12 @@ Download the Server Install image. (Picture below)
 After downloading and installing the virtualbox the following steps were followed:
 
 - A virtual machine was created to install the guest OS using Virtualbox applying the following specifications:
-    32 Bit Ubuntu Linux Server (that we download the image)
-    
+32 Bit Ubuntu Linux Server (that we download the image)
+
 ![2](https://cloud.githubusercontent.com/assets/25640511/25501788/da761cde-2b8b-11e7-80c9-6e24047e6cb3.png)
 
 
-  
+
 
 Using VM VirtualBox create a machine for hosting our 32 Bit Ubuntu Linux server. 
 You will need to select the size and type of drive you use as well as the memory you will assign to your machine. I recommend the following settings:
