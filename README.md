@@ -138,8 +138,8 @@ PHP (PHP: Hypertext Preprocessor) is a widely used open source general purpose s
 To install PHP and the modules I used the command: 
 <b>sudo apt-get install php7.0 php7.0-mysql libapache2-mod-php7.0 php7.0-cli php7.0-cgi php7.0-gd
 
- </b>After this command finished run I needed to test that PHP was working, so I created a <i>info php</i> file in my <i>var/www/html</i>  directory. I created that file and oppened it text editor VI to inserted some basic PHP code. I used the command:
- <b>sudo vi /var/wwww/html/info.php </b> </b>
+ After this command finished run I needed to test that PHP was working, so I created a <i>info php</i> file in my <i>var/www/html</i>  directory. I created that file and oppened it text editor VI to inserted some basic PHP code. I used the command:
+ <b>sudo vi /var/wwww/html/info.php </b>
  
  </b> This oppened a new file called <i> info.php.</i> Then I used the code : 
  
