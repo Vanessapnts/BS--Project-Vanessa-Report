@@ -13,7 +13,7 @@ The purpose of this report is to present the steps of the process of installing 
 -	<b> Installing and configuring a virtual machine (Linux Ubuntu) using the program Virtualbox.</b>
 -	<b>Deployment of a LAMP stack on Ubuntu Server. </b>
 
-      – Installing Apache Web-Server.
+      - Installing Apache Web-Server.
       - MySQL.
       - PHP and Modules.
 -	<b> Content Management System -  Installing and testing the hosted website. </b>
