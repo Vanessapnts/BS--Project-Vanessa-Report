@@ -29,7 +29,7 @@ After downloading and installing the virtualbox the following steps were followe
 
 - A virtual machine was created to install the guest OS using Virtualbox applying the following specifications:
 
-32 Bit Ubuntu Linux Server (that we download the image)
+   32 Bit Ubuntu Linux Server (that we download the image)
 
 ![2](https://cloud.githubusercontent.com/assets/25640511/25501788/da761cde-2b8b-11e7-80c9-6e24047e6cb3.png)
 
