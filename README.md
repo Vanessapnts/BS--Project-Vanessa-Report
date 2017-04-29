@@ -35,7 +35,7 @@ After downloading and installing the virtualbox the following steps were followe
 
    ![2](https://cloud.githubusercontent.com/assets/25640511/25501788/da761cde-2b8b-11e7-80c9-6e24047e6cb3.png)
     
-  - A virtual machine was created to install the guest OS (32 Bit Ubuntu Linux Server) using Virtualbox. To create we applied the following specifications:
+  A virtual machine was created to install the guest OS (32 Bit Ubuntu Linux Server) using Virtualbox. To create we applied the following specifications:
 
    - <b> Memory Size </b>: 2048mb
    
