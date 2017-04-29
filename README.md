@@ -25,7 +25,7 @@ First step was to download the Virtualbox. A VirtualBox is a software virtualiza
    ![002](https://cloud.githubusercontent.com/assets/25640511/25554593/dfbcb228-2cc8-11e7-996d-9171fd9435a5.png)
 
 
-Second step was to download a copy of the Ubuntu Server OS 16.10. It can be found on http://releases.ubuntu.com/16.10/.
+Second step was to download a copy of the Ubuntu Server OS 16.10. It can be found on [http://releases.ubuntu.com/16.10/].
 Download the Server Install image. (Picture below)
 
    ![1](https://cloud.githubusercontent.com/assets/25640511/25501789/da7a8332-2b8b-11e7-83e7-f3d9096d1e6a.png)
@@ -36,26 +36,26 @@ After downloading and installing the virtualbox the following steps were followe
     
   - A virtual machine was created to install the guest OS (32 Bit Ubuntu Linux Server) using Virtualbox. To create we applied the following specifications:
 
-   - Memory Size: 2048mb
+   - **Memory Size: 2048mb
    
    ![3](https://cloud.githubusercontent.com/assets/25640511/25501713/916d657e-2b8b-11e7-9cf7-56ffd324e1a5.png)
    
-   - Virutal Hard Disk- Create a virtual hard disk now.
+   - **Virutal Hard Disk- Create a virtual hard disk now.
    
 
    ![4](https://cloud.githubusercontent.com/assets/25640511/25501714/91716b1a-2b8b-11e7-9a95-26cfba41e437.png)
 
-   - VDI - Virtualbox Disk Image
+   - **VDI - Virtualbox Disk Image
    
    
    ![5](https://cloud.githubusercontent.com/assets/25640511/25501715/91744060-2b8b-11e7-89d5-7d2942012370.png)
    
-   - Dynamically Allocated - Storage on physical hard disk
+   - **Dynamically Allocated - Storage on physical hard disk
    
    
    ![6](https://cloud.githubusercontent.com/assets/25640511/25501716/919d1724-2b8b-11e7-945e-ed524e0d69c6.png)
    
-   - 20gb - Create Virtual Hard Disk Size
+   - **20gb - Create Virtual Hard Disk Size
    
    
    ![7](https://cloud.githubusercontent.com/assets/25640511/25501717/919e7876-2b8b-11e7-845e-6e2d036651f6.png)
@@ -92,7 +92,7 @@ Some simple settings had to be made, such as language selection, automatic keybo
 
    LAMP stack is a group of open source software used to get web servers up and running. The acronym stands for Linux, Apache, MySQL, and PHP. Since the virtual private server is already running Ubuntu, the linux part is taken care of.
    
--  Apache Web-Server
+-  **Apache Web-Server
 
-I first installed the Apache Web-Server ussing the command ###### sudo apt-get install apache2 apache2-utils
+I first installed the Apache Web-Server ussing the command ** sudo apt-get install apache2 apache2-utils**
 
