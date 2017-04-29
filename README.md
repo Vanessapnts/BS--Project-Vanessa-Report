@@ -18,17 +18,18 @@ The purpose of this report is to present the steps of the process of installing 
 
 First step was to download the Virtualbox. A VirtualBox is a software virtualization package that installs on an operating system as an application. Virtualbox allows additional operating systems to be installed on it. It can be found on https://www.virtualbox.org/wiki/Downloads. (Image below)
 
-    ![002](https://cloud.githubusercontent.com/assets/25640511/25554593/dfbcb228-2cc8-11e7-996d-9171fd9435a5.png)
+   ![002](https://cloud.githubusercontent.com/assets/25640511/25554593/dfbcb228-2cc8-11e7-996d-9171fd9435a5.png)
+
 
 Second step was to download a copy of the Ubuntu Server OS 16.10. It can be found on http://releases.ubuntu.com/16.10/.
 Download the Server Install image. (Picture below)
 
-    ![1](https://cloud.githubusercontent.com/assets/25640511/25501789/da7a8332-2b8b-11e7-83e7-f3d9096d1e6a.png)
+   ![1](https://cloud.githubusercontent.com/assets/25640511/25501789/da7a8332-2b8b-11e7-83e7-f3d9096d1e6a.png)
 
 After downloading and installing the virtualbox the following steps were followed:
 
-    ![2](https://cloud.githubusercontent.com/assets/25640511/25501788/da761cde-2b8b-11e7-80c9-6e24047e6cb3.png)
-
+   ![2](https://cloud.githubusercontent.com/assets/25640511/25501788/da761cde-2b8b-11e7-80c9-6e24047e6cb3.png)
+    
 - A virtual machine was created to install the guest OS (32 Bit Ubuntu Linux Server) using Virtualbox. To create we applied the following specifications:
 
    - Memory Size: 2048mb
@@ -55,12 +56,12 @@ After downloading and installing the virtualbox the following steps were followe
 After following the previous steps, it was necessary to mount the image .iso (Ubuntu Server) that we downloaded previously.
 As shown in the image below, I selected the virtual CD drive by selecting the file Ubuntu image.
 
-    ![8](https://cloud.githubusercontent.com/assets/25640511/25501718/919ef5bc-2b8b-11e7-92c5-9731f87f1d8e.png)
+   ![8](https://cloud.githubusercontent.com/assets/25640511/25501718/919ef5bc-2b8b-11e7-92c5-9731f87f1d8e.png)
 
 
 Subsequent to have mounted the .iso power on my virtual machine and the Ubuntu installed file the virtual machine boot up. 
 
-    ![12](https://cloud.githubusercontent.com/assets/25640511/25501704/91430ebe-2b8b-11e7-8ea3-4e82a02778fe.png)
+  ![12](https://cloud.githubusercontent.com/assets/25640511/25501704/91430ebe-2b8b-11e7-8ea3-4e82a02778fe.png)
 
 Some simple settings had to be made, such as language selection, automatic keyboard identification, region, and timezone and others. 
 
