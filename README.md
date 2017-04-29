@@ -147,9 +147,9 @@ To install PHP and the modules I used the command:
  
  phpinfo();
  
- ?>**
- </b>
- 
+ ? >**
+  </b>
+  </b>
  <i>PS: The code above with no space and no * </i>
  
  I pressed ESC after finish then I used the command <b> :wq</b> and saved my file and closed VI.(image below)
