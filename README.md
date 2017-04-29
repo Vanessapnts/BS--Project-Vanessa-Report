@@ -47,9 +47,15 @@ After downloading and installing the virtualbox the following steps were followe
    
    ![6](https://cloud.githubusercontent.com/assets/25640511/25501716/919d1724-2b8b-11e7-945e-ed524e0d69c6.png)
    
+   - 20gb - Create Virtual Hard Disk Size
+   
+   ![7](https://cloud.githubusercontent.com/assets/25640511/25501717/919e7876-2b8b-11e7-845e-6e2d036651f6.png)
    
 
+After following the previous steps, it is necessary to mount the image .ISO (Ubuntu Server) that we downloaded previously.
+As shown in the image below, you should select the virtual CD drive by going to the virtual machine settings.
 
-• Virtual Hard Disk: VDI, dynamically allocated, 20gb 
-You will then need to mount the .iso image (Ubuntu Install File) you downloaded/copied earlier and proceed. You can access the virtual CD drive by accessing the settings for the virtual machine and looking in the Storage settings.
+![8](https://cloud.githubusercontent.com/assets/25640511/25501718/919ef5bc-2b8b-11e7-92c5-9731f87f1d8e.png)
+
+
 
