@@ -33,19 +33,23 @@ After downloading and installing the virtualbox the following steps were followe
 
    - Memory Size: 2048mb
    
+   ![3](https://cloud.githubusercontent.com/assets/25640511/25501713/916d657e-2b8b-11e7-9cf7-56ffd324e1a5.png)
    
-![3](https://cloud.githubusercontent.com/assets/25640511/25501713/916d657e-2b8b-11e7-9cf7-56ffd324e1a5.png)
+   - Virutal Har Disk- Create a virtual hard disk now.
+
+   ![4](https://cloud.githubusercontent.com/assets/25640511/25501714/91716b1a-2b8b-11e7-9a95-26cfba41e437.png)
+
+   - VDI - Virtualbox Disk Image
    
-   - Virutal Har Disk: VDI, dynamically allocated, 20g
+   ![5](https://cloud.githubusercontent.com/assets/25640511/25501715/91744060-2b8b-11e7-89d5-7d2942012370.png)
+   
+   - Dynamically Allocated - Storage on physical hard disk
+   
+   ![6](https://cloud.githubusercontent.com/assets/25640511/25501716/919d1724-2b8b-11e7-945e-ed524e0d69c6.png)
+   
+   
 
-![4](https://cloud.githubusercontent.com/assets/25640511/25501714/91716b1a-2b8b-11e7-9a95-26cfba41e437.png)
 
-   - 
-
-
-Using VM VirtualBox create a machine for hosting our 32 Bit Ubuntu Linux server. 
-You will need to select the size and type of drive you use as well as the memory you will assign to your machine. I recommend the following settings:
- • Memory Size: 2048mb 
 • Virtual Hard Disk: VDI, dynamically allocated, 20gb 
 You will then need to mount the .iso image (Ubuntu Install File) you downloaded/copied earlier and proceed. You can access the virtual CD drive by accessing the settings for the virtual machine and looking in the Storage settings.
 
