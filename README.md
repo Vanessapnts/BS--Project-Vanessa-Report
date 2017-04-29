@@ -63,11 +63,17 @@ Subsequent to have mounted the .iso power on my virtual machine and the Ubuntu i
 ![12](https://cloud.githubusercontent.com/assets/25640511/25501704/91430ebe-2b8b-11e7-8ea3-4e82a02778fe.png)
 
 Some simple settings had to be made, such as language selection, automatic keyboard identification, region, and timezone and others. 
+
    After these simples configuration was setup, I created a username and password. Even though this was a simple step it was very important to write down and save the username and password as without them all the work would be lost. A good password it's composed of minimum of seven characters mixing with numbers and symbols and using uppercase and lowercase letters. 
+   
    Also there was an option to encrypt my disk, if this option was selected I would have needed to use a password fo access it every time the virtual disk was boot up on the Virtualbox. 
+   
    When I finished this part of the process and confirmed changes to the disk, the installation started.
+   
    This part of the process took around 15 minutes. On this stage I did not set up a proxy and chose automatic security updates. I only installed the base package and installed the GRUB bootloader (GRUB 'GRand Unified Bootloader' is a boot loader package that supports multiple operating systems on a computer) then the installations was finished.
+   
    The machine rebooted and then prompted my username and password, that I had created before.
    This was the installation and configuration of Ubuntu Server.
+   
    In the end I took a snapshot of my machine to save all the changes I've made so far. Because I could recover the machine at the this point if something went wrong in the next steps. Also means that I have a fresh install image of Ubuntu Server to use so I would not have to go through the install process again if I wanted a identical machine.
 
