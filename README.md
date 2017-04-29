@@ -1,4 +1,4 @@
-# Report-
+# Report
 
 ## Project and Learning Journal
 
@@ -15,8 +15,11 @@ The purpose of this report is to present the steps of the process of installing 
 
 ## Installing and configuring the virtual machine
 
-First step was to download a copy of the Ubuntu Server OS 16.10. It can be found on http://releases.ubuntu.com/16.10/.
+First step was to download the Virtualbox it can be found on https://www.virtualbox.org/wiki/Downloads. A VirtualBox is a software virtualization package that installs on an operating system as an application. VirtualBox allows additional operating systems to be installed on it. (Image below)
+![002](https://cloud.githubusercontent.com/assets/25640511/25554593/dfbcb228-2cc8-11e7-996d-9171fd9435a5.png)
 
-Download the Server Install image. (picture below)
+Second step was to download a copy of the Ubuntu Server OS 16.10. It can be found on http://releases.ubuntu.com/16.10/.
+
+Download the Server Install image. (Picture below)
 
 ![1](https://cloud.githubusercontent.com/assets/25640511/25501789/da7a8332-2b8b-11e7-83e7-f3d9096d1e6a.png)
