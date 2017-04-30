@@ -141,7 +141,7 @@ To install PHP and the modules I used the command:
  After this command finished run I needed to test that PHP was working, so I created a <i>info php</i> file in my <i>var/www/html</i>  directory. I created that file and oppened it text editor VI to inserted some basic PHP code. I used the command:
  <b>sudo vi /var/wwww/html/info.php </b>
  
- </b> This oppened a new file called <i> info.php.</i> Then I used the code : 
+ This oppened a new file called <i> info.php.</i> Then I used the code : 
  
  
  ** < ?php
@@ -168,4 +168,25 @@ That image above shows that my php was installed correctly and it was working pe
 
 ## Content Management System
 
+<b>A Content Management System</b> is a computer application that supports creation and editing of digital content.
 
+In this project I used CMS WordPress, the most popular open source CMS .
+
+<b>-  Intalling WordPress</b>
+      
+      As the previoslly steps I installed and checked all the applications necessary so I was able to then install the CMS. I inserted the command: <b> wget-c http://wordpress.or/latest.tar.gz </b>
+      
+    After this step, I extracted the files from compressed folder to Apache root and then got the permission on the website directory I also changed the permissions so anyone was able to read and execute but only the owner was able to write.
+    
+    The next step was to <b>Create a MySQL database for WordPress </b> I had to create a database and I also had to create a strong and complexed password for secure my database. I then reestarted the web server and MySQL service so they could get all the changes that I made.
+    
+    Once I completed all the previous steps I accessed <b> htpp://localhost/wp-admin/setup-config.php </b>
+    
+    
+    ![600px-install-step3](https://cloud.githubusercontent.com/assets/25640511/25563346/93421ca6-2d92-11e7-992a-ab736f9bb0ab.png)
+    
+    
+    <b>-   Configuring WordPress site</b>
+    
+    
+     
