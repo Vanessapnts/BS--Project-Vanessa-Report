@@ -173,7 +173,7 @@ That image above shows that my php was installed correctly and it was working pe
 In this project I used CMS WordPress, the most popular open source CMS .
 
 - <b> Installing WordPress</b>
-      
+
 As the previous steps I installed and checked all the applications necessary.
 So I was able to then install the CMS.I inserted the command: <b> wget-c http://wordpress.or/latest.tar.gz </b>
       
@@ -199,7 +199,7 @@ Once I completed all the previous steps I accessed <b> htpp://localhost/wp-admin
   
    
 ## Problems
-  
+
 The only problem that faced was when I tried to open the WordPress, the Apache was still displaying. 
 The solution was to delete the Apache on my VM and refresh my browser.
     
