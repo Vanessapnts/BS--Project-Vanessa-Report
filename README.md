@@ -174,24 +174,23 @@ In this project I used CMS WordPress, the most popular open source CMS .
 
 - <b> Installing WordPress</b>
       
-      As the previous steps I installed and checked all the applications necessary
-      so I was able to then install the CMS.
-      I inserted the command: <b> wget-c http://wordpress.or/latest.tar.gz </b>
+As the previous steps I installed and checked all the applications necessary.
+So I was able to then install the CMS.I inserted the command: <b> wget-c http://wordpress.or/latest.tar.gz </b>
       
-    After this step, I extracted the files from compressed folder to Apache root and then got the permission on the website directory 
-    I also changed the permissions so anyone was able to read and execute but only the owner was able to write.
+After this step, I extracted the files from compressed folder to Apache root and then got the permission on the website directory 
+I also changed the permissions so anyone was able to read and execute but only the owner was able to write.
     
-    TThe next step was to <b>Create a MySQL database for WordPress </b> I had to create a database and 
-    I also had to create a strong and complexed password for secure my database.
-    I then restarted the web server and MySQL service so they could get all the changes that I made.
+TThe next step was to <b>Create a MySQL database for WordPress </b> I had to create a database and 
+I also had to create a strong and complexed password for secure my database.
+I then restarted the web server and MySQL service so they could get all the changes that I made.
     
-    Once I completed all the previous steps I accessed <b> htpp://localhost/wp-admin/setup-config.php </b>
+Once I completed all the previous steps I accessed <b> htpp://localhost/wp-admin/setup-config.php </b>
     
     
 ![600px-install-step3](https://cloud.githubusercontent.com/assets/25640511/25563346/93421ca6-2d92-11e7-992a-ab736f9bb0ab.png)
     
   
-  After I completed the image above I was able to change the website.
+ After I completed the image above I was able to change the website.
   
   ![wordpressdashboardwidelook](https://cloud.githubusercontent.com/assets/25640511/25563677/e5a97cc2-2d98-11e7-8fc1-2e896cac9b91.png)
   
@@ -201,8 +200,8 @@ In this project I used CMS WordPress, the most popular open source CMS .
    
 ## Problems
   
-    The only problem that faced was when I tried to open the WordPress, the Apache was still displaying. 
-    The solution was to delete the Apache on my VM and refresh my browser.
+The only problem that faced was when I tried to open the WordPress, the Apache was still displaying. 
+The solution was to delete the Apache on my VM and refresh my browser.
     
     
     
