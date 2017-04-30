@@ -104,7 +104,7 @@ I first installed the Apache Web-Server ussing the command: <b> sudo apt-get ins
 Then I changed the setting so the Apache2 Web-Server could start up at system boot, for this I used the systemctl enable command: 
 <b> sudo systemtcl enable apache2 </b>. To Apache start the service I entered the command: <b> sudo systemctl start apache2 </b>
 
-To confirm that my Apache server was running, I checked the network adapter settings making my VM visible from my host. I chaged the settings on my virtual network adapter, I set up port fowarding with my host to make it accesible from the host. Then I did the fallowing steps: <b> Settings - Network - Advanced - Por - Fowarding </b>, so I wrote "Name: <i> Apache </i>/ Protocol:<i> TCP</i>/ Host Port:<i> 80</i> /Guest Port:<i> 80 </i>. (iamge below)
+To confirm that my Apache server was running, I checked the network adapter settings making my VM visible from my host. I chaged the settings on my virtual network adapter, I set up port forwarding with my host to make it accesible from the host. Then I did the fallowing steps: <b> Settings - Network - Advanced - Por - Fowarding </b>, so I wrote "Name: <i> Apache </i>/ Protocol:<i> TCP</i>/ Host Port:<i> 80</i> /Guest Port:<i> 80 </i>. (iamge below)
 
 
 ![15](https://cloud.githubusercontent.com/assets/25640511/25501703/9142bdec-2b8b-11e7-9440-4e286553a15b.png)
@@ -116,11 +116,11 @@ After this I was able to access the default apache homepage on http://localhost 
 ![16](https://cloud.githubusercontent.com/assets/25640511/25501705/9143ff7c-2b8b-11e7-9a3e-1b8a8aa39185.png)
 
 
-When I finished all those previosly steps configuring my local Apache Web-Server, I was able to host a basic webpage. 
+When I finished all those previous steps configuring my local Apache Web-Server, I was able to host a basic webpage. 
 
 <b>-   MySQL </b>
 
-MySQL is an open source Database program. Different of the Apache MySQL is responsable of moden websites to maintain database that allows user to login, saving input to websites and etc.
+MySQL is an open source Database program. Different of the Apache MySQL is responsable of modern websites to maintain database that allows user to login, saving input to websites and etc.
 
 To install my MySQL database server I used the command: <b> sudo apt-get install mysql-client mysql-server</b>
 
@@ -129,7 +129,7 @@ It's very important to keep the database secure, even though in my case I am not
 ![17](https://cloud.githubusercontent.com/assets/25640511/25501707/91589fe0-2b8b-11e7-8649-fde1d01d3928.png)
 
 
-If I was working for a production environment a strong password would be necessary, in this case in my testing environment I chose setting which made my environment easier to run. When I changed the root password I saved it so I could remember after. I chose <b> Yes </b> to reload privilege tables, so all the changes was upoload.
+If I was working for a production environment a strong password would be necessary, in this case in my testing environment I chose setting which made my environment easier to run. When I changed the root password I saved it so I could remember after. I chose <b> Yes </b> to reload privilege tables, so all the changes were upload.
 
 <b>-  PHP and Modules </b>
 
@@ -138,10 +138,10 @@ PHP (PHP: Hypertext Preprocessor) is a widely used open source general purpose s
 To install PHP and the modules I used the command: 
 <b>sudo apt-get install php7.0 php7.0-mysql libapache2-mod-php7.0 php7.0-cli php7.0-cgi php7.0-gd
 
- After this command finished run I needed to test that PHP was working, so I created a <i>info php</i> file in my <i>var/www/html</i>  directory. I created that file and oppened it text editor VI to inserted some basic PHP code. I used the command:
+ After this command finished run I needed to test that PHP was working, so I created a <i>info php</i> file in my <i>var/www/html</i>  directory. I created that file and opened it text editor VI to inserted some basic PHP code. I used the command:
  <b>sudo vi /var/wwww/html/info.php </b>
  
- This oppened a new file called <i> info.php.</i> Then I used the code : 
+ This opened a new file called <i> info.php.</i> Then I used the code : 
  
  
  ** < ?php
@@ -174,19 +174,30 @@ In this project I used CMS WordPress, the most popular open source CMS .
 
 <b>-  Intalling WordPress</b>
       
-      As the previoslly steps I installed and checked all the applications necessary so I was able to then install the CMS. I inserted the command: <b> wget-c http://wordpress.or/latest.tar.gz </b>
+      As the previous steps I installed and checked all the applications necessary so I was able to then install the CMS. I inserted the command: <b> wget-c http://wordpress.or/latest.tar.gz </b>
       
     After this step, I extracted the files from compressed folder to Apache root and then got the permission on the website directory I also changed the permissions so anyone was able to read and execute but only the owner was able to write.
     
-    The next step was to <b>Create a MySQL database for WordPress </b> I had to create a database and I also had to create a strong and complexed password for secure my database. I then reestarted the web server and MySQL service so they could get all the changes that I made.
+    TThe next step was to <b>Create a MySQL database for WordPress </b> I had to create a database and I also had to create a strong and complexed password for secure my database. I then restarted the web server and MySQL service so they could get all the changes that I made.
     
     Once I completed all the previous steps I accessed <b> htpp://localhost/wp-admin/setup-config.php </b>
     
     
-    ![600px-install-step3](https://cloud.githubusercontent.com/assets/25640511/25563346/93421ca6-2d92-11e7-992a-ab736f9bb0ab.png)
+![600px-install-step3](https://cloud.githubusercontent.com/assets/25640511/25563346/93421ca6-2d92-11e7-992a-ab736f9bb0ab.png)
     
+  
+  After I completed the image above I was able to change the website.
+  
+  ![wordpressdashboardwidelook](https://cloud.githubusercontent.com/assets/25640511/25563677/e5a97cc2-2d98-11e7-8fc1-2e896cac9b91.png)
+  
+  
+ The image above shows the dashboard on WordPress. There, I could do any change that I wanted, the website it's simple and easy to work if it.
+  
+   
+  ## Problems
+  
+    The only problem that faced was when I tried to open the WordPress, the Apache was still displaying. The solution was to delete the Apache on my VM and refresh my browser.
     
-    <b>-   Configuring WordPress site</b>
     
     
      
